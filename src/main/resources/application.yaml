@@ -1,0 +1,11 @@
+server.port: 8085
+
+spring.datasource.url: jdbc:postgresql://localhost:5432/product_list
+spring.datasource.username: d.kapriz
+spring.datasource.driver-class-name: org.postgresql.Driver
+
+spring.jpa.hibernate.ddl-auto: validate
+spring.jpa.database-platform: org.hibernate.dialect.PostgreSQLDialect
+spring.jpa.show-sql: true
+
+spring.mvc.pathmatch.matching-strategy: ant_path_matcher
